@@ -1,0 +1,71 @@
+.about-sec-container {
+    padding-top: 50px;
+    background: var(--neutral--700);
+    border-radius: 10px;
+    font-weight: 200;
+}
+
+.about-sec {
+    display: flex;
+    padding: 40px;
+}
+
+.about-left {
+    min-width: 30%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about-left p {
+    margin-top: 0px;
+}
+
+.about-right {
+    line-height: 24px;
+}
+
+.skills-right {
+    display: flex;
+    width: 100%;
+}
+
+.skills-right div {
+    width: 25%;
+}
+
+.skills-right p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.skills-right ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 24px;
+}
+
+.exp-right {
+    width: 65%;
+    line-height: 24px;
+}
+
+.exp {
+    margin-bottom: 30px;
+}
+
+.exp-company-sec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp-company-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.exp-served {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}

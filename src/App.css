@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+::-webkit-scrollbar {
+	width: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-track {
+	background-color: var(--neutral--800);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-thumb {
+	background-color: var(--neutral--700);
+  border: 0.5px solid var(--neutral--800);
+	border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(0, 0, 0);
 }
 
-.App-link {
-  color: #61dafb;
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: var(--gradient-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-selection { /* Code for Firefox */
+  color: red;
+  background: green;
 }
+
+::selection {
+  color: red;
+  background: var(--gradient-color);
+}
+
+.gradient-1 {
+  color: transparent !important;
+  /* background: linear-gradient(90deg, #6a0e72, #099cfd, #ff0984); */
+background: var(--gradient-color) !important;
+background-clip: text !important;
+  -webkit-background-clip: text !important;
+}
+
+.fade-up {
+  opacity: 0;
+  transition: all .5s;
+  transform: translate(0, 10px);
+}
+
+.fade-up-show {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.fade-in{
+  opacity: 0;
+  transition: all 1.2s;
+  filter: blur(5);
+}
+
+.fade-in-show {
+  opacity: 1;
+  filter: blur(0);
+}
+
