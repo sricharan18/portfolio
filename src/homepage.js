@@ -11,7 +11,6 @@ const Homepage = () => {
     const RevealFunc = (entries) => {
         entries.forEach(entry => {
             if(entry.isIntersecting){
-                // console.log(entry.target.getAttribute('data-animate') )
                 
                 if (entry.target.getAttribute('data-animate') === 'fade-up') entry.target.classList.add('fade-up-show')
                 if (entry.target.getAttribute('data-animate') === 'fade-in') entry.target.classList.add('fade-in-show')
@@ -20,8 +19,6 @@ const Homepage = () => {
     }
 
     useEffect(() => {
-
-        // ReactGA.send({ hitType: "pageview", page: "/", title: "Home page" });
 
         const options = {
             root: null,
