@@ -15,37 +15,17 @@ const Navbar = (props) => {
 				<nav className="navbar">
 					<div className="nav-background">
 						<ul className="nav-list">
-							<li
-								className="nav-item"
-							>
+							<li>
 								<p onClick={() => homeSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>Home</p>
 							</li>
-							<li
-								className={
-									active === "about"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
+							<li>
 								<p onClick={() => aboutSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>About</p>
 							</li>
-							<li
-								className={
-									active === "projects"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
+							<li>
 								<p>Projects</p>
 							</li>
 							
-							<li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
+							<li>
 								<p onClick={() => contactSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>Contact</p>
 							</li>
 						</ul>
