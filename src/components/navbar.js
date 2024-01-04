@@ -15,17 +15,23 @@ const Navbar = (props) => {
 				<nav className="navbar">
 					<div className="nav-background">
 						<ul className="nav-list">
-							<li>
+							<li
+								className="nav-item"
+							>
 								<p onClick={() => homeSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>Home</p>
 							</li>
-							<li>
+							<li
+								className="nav-item"
+							>
 								<p onClick={() => aboutSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>About</p>
 							</li>
-							<li>
+							<li
+								className="nav-item"
+							>
 								<p>Projects</p>
 							</li>
 							
-							<li>
+							<li className="nav-item">
 								<p onClick={() => contactSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>Contact</p>
 							</li>
 						</ul>

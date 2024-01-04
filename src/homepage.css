@@ -305,16 +305,13 @@ animation-delay: 1.2s;
         margin: 30px auto 0px auto;
     }
 
-    .skills-right div {
-        width: 50% !important;
-    }
-
     .skills-right {
         flex-wrap: wrap;
+        width: 95% !important;
     }
 
     .exp-right {
-        width: 95% !important;
+        width: 90% !important;
     }
 
     .navbar{
@@ -327,6 +324,10 @@ animation-delay: 1.2s;
 
     .nav-left {
         width: 2%;
+    }
+
+    .skills-right div{
+        width: 45% !important;
     }
 }
 
@@ -341,5 +342,9 @@ animation-delay: 1.2s;
 
     .project-wrapper {
         padding: 10px !important;
+    }
+
+    .project-skills div {
+        margin-right: 10px;
     }
 }

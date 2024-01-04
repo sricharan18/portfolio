@@ -61,7 +61,7 @@ const Homepage = () => {
                             Software Developer
                         </div>
                         <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.5s'}}>
-                            I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.
+                            A Full-Stack Developer with 2+ years of experience and Master's in CS looking for opportunities and to leverage expertise in React, Spring Boot and more.
                         </div>
 
                         <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.6s', fontWeight: 600}}>
