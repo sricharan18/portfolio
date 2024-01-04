@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.750d3bd3.css",
+    "main.js": "/static/js/main.dff2d928.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/Simplify.png": "/static/media/Simplify.3c7f804bd04a992c9546.png",
+    "static/media/youro.png": "/static/media/youro.adfc44f900ac857a20c0.png",
+    "static/media/rajRentals.png": "/static/media/rajRentals.c2f8a650c4d724840fa3.png",
+    "index.html": "/index.html",
+    "main.750d3bd3.css.map": "/static/css/main.750d3bd3.css.map",
+    "main.dff2d928.js.map": "/static/js/main.dff2d928.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.750d3bd3.css",
+    "static/js/main.dff2d928.js"
+  ]
+}
