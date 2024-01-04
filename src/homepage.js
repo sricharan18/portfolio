@@ -5,6 +5,7 @@ import Aboutme from "./components/about";
 import Project from "./components/projects";
 import Contact from "./components/contact";
 
+
 const Homepage = () => {
 
     const RevealFunc = (entries) => {
@@ -19,6 +20,8 @@ const Homepage = () => {
     }
 
     useEffect(() => {
+
+        // ReactGA.send({ hitType: "pageview", page: "/", title: "Home page" });
 
         const options = {
             root: null,
