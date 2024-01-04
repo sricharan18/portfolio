@@ -52,6 +52,10 @@
     font-weight: 700;
 }
 
+.hero-container div:last-child {
+    margin-top: 70px;
+}
+
 .page-content {
     max-width: 1200px;
     margin: 0 auto;
