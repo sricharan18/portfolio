@@ -307,7 +307,7 @@ animation-delay: 1.2s;
 
     .skills-right {
         flex-wrap: wrap;
-        width: 95% !important;
+        width: 90% !important;
     }
 
     .exp-right {
@@ -345,6 +345,6 @@ animation-delay: 1.2s;
     }
 
     .project-skills div {
-        margin-right: 10px;
+        margin-right: 8px !important;
     }
 }
