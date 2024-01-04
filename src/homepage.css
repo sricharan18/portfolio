@@ -321,11 +321,25 @@ animation-delay: 1.2s;
         display: none !important;
     }
 
-    .hero-wrapper div:last-child {
+    .hero-container div:last-child {
         margin-top: 100px;
     }
 
     .nav-left {
         width: 2%;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-container{
+        padding: 10px !important;
+    }
+
+    .about-sec{
+        padding: 10px !important;
+    }
+
+    .project-wrapper {
+        padding: 10px !important;
     }
 }

@@ -23,7 +23,7 @@ const Homepage = () => {
         const options = {
             root: null,
             rootMargin: "0px",
-            threshold: 0.8
+            threshold: 0.5
           };
 
         var observer = new IntersectionObserver(RevealFunc, options); 
@@ -49,7 +49,7 @@ const Homepage = () => {
                         <div class="line"></div>
                     </div>
 
-                    <div style={{zIndex: 1}}>
+                    <div style={{zIndex: 1}} className="hero-container">
                     <div class="heading-top-line large"></div>
                         <div className='hero-text-1 fade-up' data-animate="fade-up" style={{transitionDelay: '.2s'}}>
                             Hello, my name is
