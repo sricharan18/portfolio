@@ -12,7 +12,7 @@ function App() {
     // <div className="App">
     //   <Homepage />
     // </div>
-    <BrowserRouter basename='https://sricharan18.github.io/portfolio/'>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
