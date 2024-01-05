@@ -58,7 +58,7 @@ const Homepage = () => {
                             Sri Sai Charan K
                         </div>
                         <div className='hero-text-3 gradient-1 fade-up' data-animate='fade-up' style={{transitionDelay: '.4s'}}>
-                            Software Developer
+                            Software Engineer
                         </div>
                         <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.5s'}}>
                             A Full-Stack Developer with 2+ years of experience and Master's in CS looking for opportunities and to leverage expertise in React, Spring Boot and more.

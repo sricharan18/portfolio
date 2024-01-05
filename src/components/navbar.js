@@ -5,9 +5,10 @@ const Navbar = (props) => {
 
     const { active }  = props;
 
-    var homeSection = document.querySelector( '.hero-wrapper' )
-    var aboutSection = document.querySelector( '.about-sec-container' )
-    var contactSection = document.querySelector('.contact')
+    const handleClick = (name) => {
+        var section = document.querySelector(name )
+        section.scrollIntoView( { behavior: 'smooth', block: 'start' } )
+    }
 
     return (
         <div className="nav-wrapper">
@@ -15,24 +16,24 @@ const Navbar = (props) => {
 				<nav className="navbar">
 					<div className="nav-background">
 						<ul className="nav-list">
-							<li
+							<li onClick={() => handleClick('.hero-wrapper')}
 								className="nav-item"
 							>
-								<p onClick={() => homeSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>Home</p>
+								<p >Home</p>
 							</li>
-							<li
+							<li  onClick={() => handleClick('.about-sec-container')}
 								className="nav-item"
 							>
-								<p onClick={() => aboutSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>About</p>
+								<p>About</p>
 							</li>
-							<li
+							<li onClick={() => handleClick('.project-wrapper')}
 								className="nav-item"
 							>
-								<p>Projects</p>
+								<p >Projects</p>
 							</li>
 							
-							<li className="nav-item">
-								<p onClick={() => contactSection.scrollIntoView( { behavior: 'smooth', block: 'start' } )}>Contact</p>
+							<li className="nav-item" onClick={() => handleClick('.contact')}>
+								<p >Contact</p>
 							</li>
 						</ul>
 					</div>
