@@ -77,7 +77,7 @@ const AboutMe = () => {
                             <div className="exp-company-title">Fiverr</div>
                             <div className="exp-served">Feb&nbsp; 2022 - Oct&nbsp; 2023</div>
                         </div>
-                        <div>Freelance Web developer</div>
+                        <div>Full Stack Developer</div>
                     </div>
 
                     <div className="exp">
@@ -93,7 +93,7 @@ const AboutMe = () => {
                             <div className="exp-company-title">SimplifyVMS</div>
                             <div className="exp-served">Jun&nbsp; 2021 - Jun&nbsp; 2022</div>
                         </div>
-                        <div>Software Developer Intern</div>
+                        <div>Software Developer</div>
                     </div>
 
                     <div className="exp">
