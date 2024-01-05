@@ -71,7 +71,7 @@ background-clip: text !important;
   flex-direction: column;
 }
 
-.page-not-found div:last-child {
+.page-not-found a {
   font-size: 16px;
   font-weight: 500;
   margin-top: 50px;
