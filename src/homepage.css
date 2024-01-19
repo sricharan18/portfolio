@@ -52,7 +52,21 @@
     font-weight: 700;
 }
 
-.hero-container div:last-child {
+.resume-btn {
+    border: 0.5px dotted;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.resume-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero-container > div:last-child {
     margin-top: 70px;
 }
 
@@ -322,7 +336,7 @@ animation-delay: 1.2s;
         display: none !important;
     }
 
-    .hero-container div:last-child {
+    .hero-container > div:last-child {
         margin-top: 100px;
     }
 
@@ -350,5 +364,9 @@ animation-delay: 1.2s;
 
     .project-skills div {
         margin-right: 8px !important;
+    }
+
+    .hero-container > div:last-child{
+        display: block !important;
     }
 }

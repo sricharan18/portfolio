@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Aboutme from "./components/about";
 import Project from "./components/projects";
 import Contact from "./components/contact";
+import Resume from './assets/Sri_Sai_Charan_Kachavarapu_resume.pdf'
 
 
 const Homepage = () => {
@@ -61,11 +62,18 @@ const Homepage = () => {
                             Software Engineer
                         </div>
                         <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.5s'}}>
-                            A Full-Stack Developer with 2+ years of experience and Master's in CS looking for opportunities and to leverage expertise in React, Spring Boot and more.
+                            A Full-Stack Developer with 2 years of experience and Master's in CS looking for opportunities and to leverage expertise in React, Spring Boot and more.
                         </div>
 
-                        <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.6s', fontWeight: 600}}>
-                            Get in touch: <a className="contact-highlight" target='_blank' href={`mailto:${'charanformail@gmail.com'}`}>charanformail@gmail.com</a>
+                        <div style={{display:'flex', alignItems: 'center'}}>
+                            <div className='hero-support-text fade-up resume-btn' data-animate='fade-up' 
+                                style={{transitionDelay: '.6s', fontWeight: 600}}>
+                                    <a href={Resume} target="_blank">Resume</a>
+                            </div>
+
+                            <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.6s', fontWeight: 600}}>
+                                Get in touch: <a className="contact-highlight" target='_blank' href={`mailto:${'charanformail@gmail.com'}`}>charanformail@gmail.com</a>
+                            </div>
                         </div>
                     </div>
 

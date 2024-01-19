@@ -75,15 +75,15 @@ const AboutMe = () => {
                 <div className="exp">
                         <div className="exp-company-sec">
                             <div className="exp-company-title">Fiverr</div>
-                            <div className="exp-served">Feb&nbsp; 2022 - Oct&nbsp; 2023</div>
+                            <div className="exp-served">Feb&nbsp; 2022 - Aug&nbsp; 2023</div>
                         </div>
-                        <div>Full Stack Developer</div>
+                        <div>Freelance React.js Developer</div>
                     </div>
 
                     <div className="exp">
                         <div className="exp-company-sec">
                             <div className="exp-company-title">University at Buffalo</div>
-                            <div className="exp-served">Aug&nbsp; - Oct&nbsp; 2023</div>
+                            <div className="exp-served">Jun&nbsp; - Aug&nbsp; 2023</div>
                         </div>
                         <div>Graduate Student Assistant</div>
                     </div>
