@@ -1,12 +1,14 @@
 .contact{
-    margin-top: 20px;
-    padding-bottom: 50px;
     font-size: 20px;
     font-weight: 500;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
+    color: var(--neutral--200);
+    font-weight: 400;
+    margin-top: 75px;
+    padding-bottom: 50px;
+    
 }
 
 
@@ -28,7 +30,7 @@
     border-radius: 50%;
     /* box-shadow: 
         0 2px 2px #d1d1d1; */
-    color: #fff;
+        color: var(--neutral--200);
     cursor: pointer;
     transition:
         all 0.15s ease;

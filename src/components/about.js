@@ -9,7 +9,7 @@ const AboutMe = () => {
                     <p className="gradient-1">ABOUT ME</p>
                 </div>
                 <div className="about-right">
-                    Hello! I'm Charan, a Freelance Full-Stack Developer and MS graduate in Computer Science & Engineering at the University at Buffalo. With React.js, Node.js, SQL, Spring Boot, and HTML/CSS in my arsenal, I've been building things for the web for the past 3 years.
+                    Hello! I'm Charan, a Freelance Full-Stack Developer and MS graduate in Computer Science & Engineering at the University at Buffalo. With React.js, Python, SQL, Spring Boot, and HTML/CSS in my arsenal, I've been building things for the web for the past 3 years.
                     <br />
                     <br />
                     My journey? I've served clients from 6 countries during my freelance, crafting user-friendly, responsive, and secure web applications. This freelance experience, coupled with my year-long internship at SimplifyVMS, has fueled my passion for building impactful solutions.
@@ -30,7 +30,7 @@ const AboutMe = () => {
                             <li>Python</li>
                             <li>Java</li>
                             <li>Javascript</li>
-                            <li>C</li>
+                            <li>C++</li>
                             <li>SQL</li>
                         </ul>
                     </div>
@@ -49,9 +49,9 @@ const AboutMe = () => {
                             <li>Git</li>
                             <li>Tableau</li>
                             <li>Docker</li>
-                            <li>Kafka</li>
                             <li>AWS</li>
                             <li>Selenium</li>
+                            <li>Figma</li>
                         </ul>
                     </div>
                     <div>
@@ -59,9 +59,10 @@ const AboutMe = () => {
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>UI/UX</li>
-                            <li>REST</li>
+                            <li>Linux</li>
+                            <li>REST API</li>
                             <li>AGILE</li>
+                            <li>Scripting</li>
                         </ul>
                     </div>
                 </div>
@@ -72,20 +73,20 @@ const AboutMe = () => {
                     <p className="gradient-1">EXPERIENCE</p>
                 </div>
                 <div className="exp-right">
-                <div className="exp">
-                        <div className="exp-company-sec">
-                            <div className="exp-company-title">Fiverr</div>
-                            <div className="exp-served">Feb&nbsp; 2022 - Aug&nbsp; 2023</div>
-                        </div>
-                        <div>Freelance React.js Developer</div>
-                    </div>
-
                     <div className="exp">
                         <div className="exp-company-sec">
                             <div className="exp-company-title">University at Buffalo</div>
                             <div className="exp-served">Jun&nbsp; - Aug&nbsp; 2023</div>
                         </div>
                         <div>Graduate Student Assistant</div>
+                    </div>
+
+                    <div className="exp">
+                        <div className="exp-company-sec">
+                            <div className="exp-company-title">Fiverr</div>
+                            <div className="exp-served">Feb&nbsp; 2022 - Aug&nbsp; 2023</div>
+                        </div>
+                        <div>Freelance React.js Developer</div>
                     </div>
 
                     <div className="exp">

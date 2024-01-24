@@ -4,7 +4,7 @@ import './contact.css'
 const Contact = () => {
     return (
         <div className="contact">
-            Designed and deveopled by Sri Sai Charan K
+            Designed and developed by Sri Sai Charan K
             <div class="social-icons-btn">
             <a class="icons mail" target="_blank"  href={`mailto:${'charanformail@gmail.com'}`}>
                 <ion-icon name="mail-outline"></ion-icon>
