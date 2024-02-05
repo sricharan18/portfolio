@@ -9,7 +9,7 @@ const AboutMe = () => {
                     <p className="gradient-1">ABOUT ME</p>
                 </div>
                 <div className="about-right">
-                    Hello! I'm Charan, a Freelance Full-Stack Developer and MS graduate in Computer Science & Engineering at the University at Buffalo. With React.js, Python, SQL, Spring Boot, and HTML/CSS in my arsenal, I've been building things for the web for the past 3 years.
+                    Hello! I'm Charan, a Freelance Full-Stack Developer and MS graduate in Computer Science & Engineering at the University at Buffalo. With React.js, Python, Flask, SQL, and Node in my arsenal, I've been building things for the web for the past 3 years.
                     <br />
                     <br />
                     My journey? I've served clients from 6 countries during my freelance, crafting user-friendly, responsive, and secure web applications. This freelance experience, coupled with my year-long internship at SimplifyVMS, has fueled my passion for building impactful solutions.
@@ -38,6 +38,8 @@ const AboutMe = () => {
                         <p>FRAMEWORKS</p>
                         <ul>
                             <li>React</li>
+                            <li>Flask</li>
+                            <li>Django</li>
                             <li>Spring Boot</li>
                             <li>Express</li>
                             <li>Node</li>
@@ -86,7 +88,7 @@ const AboutMe = () => {
                             <div className="exp-company-title">Fiverr</div>
                             <div className="exp-served">Feb&nbsp; 2022 - Aug&nbsp; 2023</div>
                         </div>
-                        <div>Freelance React.js Developer</div>
+                        <div>Freelance Full Stack Developer</div>
                     </div>
 
                     <div className="exp">
