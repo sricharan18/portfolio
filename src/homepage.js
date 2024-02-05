@@ -67,10 +67,10 @@ const Homepage = () => {
 
                         <div style={{display:'flex', alignItems: 'center'}}>
                             
-                            <a href={Resume} target="_blank" style={{textDecoration: 'none'}}>
+                            {/* <a href={Resume} target="_blank" style={{textDecoration: 'none'}}>
                                 <div className='hero-support-text fade-up resume-btn' data-animate='fade-up' 
                                 style={{transitionDelay: '.6s', fontWeight: 600}}>Resume</div>
-                            </a>
+                            </a> */}
                             
 
                             <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.6s', fontWeight: 600}}>
