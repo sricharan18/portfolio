@@ -39,7 +39,7 @@ const Project = () => {
                     <p>Led the research, design, and implementation of a website showcasing student-friendly housing options in Buffalo, featuring detailed property descriptions, amenities, and contact information.</p>
                     <div> <br /><hr />
                         <div className="project-skills">
-                            <div>React Js</div>
+                            <div>Next Js</div>
                             <div>Git</div>
                             <div>Express Js</div>
                             <div>SQL</div>

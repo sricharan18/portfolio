@@ -29,7 +29,8 @@ const AboutMe = () => {
                         <ul>
                             <li>Python</li>
                             <li>Java</li>
-                            <li>Javascript</li>
+                            <li>TypeScript</li>
+                            <li>JavaScript</li>
                             <li>C++</li>
                             <li>SQL</li>
                         </ul>
@@ -37,11 +38,11 @@ const AboutMe = () => {
                     <div>
                         <p>FRAMEWORKS</p>
                         <ul>
-                            <li>React</li>
+                            <li>ReactJS</li>
                             <li>Flask</li>
                             <li>Django</li>
                             <li>Spring Boot</li>
-                            <li>Express</li>
+                            <li>NextJS</li>
                             <li>Node</li>
                         </ul>
                     </div>
