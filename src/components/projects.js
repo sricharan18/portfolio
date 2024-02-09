@@ -18,7 +18,7 @@ const Project = () => {
                     <div> <br /><hr />
                         <div className="project-skills">
                             <div>React Js</div>
-                            <div>Spring Boot</div>
+                            <div>Flask</div>
                             <div>MySQL</div>
                             <div>AWS</div>
                             <div>Git</div>
