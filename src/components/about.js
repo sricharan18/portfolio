@@ -9,10 +9,10 @@ const AboutMe = () => {
                     <p className="gradient-1">ABOUT ME</p>
                 </div>
                 <div className="about-right">
-                    Hello! I'm Charan, a Freelance Full-Stack Developer and MS graduate in Computer Science & Engineering at the University at Buffalo. With React.js, Python, Flask, SQL, and Node in my arsenal, I've been building things for the web for the past 3 years.
+                    Hello! I'm Charan, a Frontend developer and a MS graduate in Computer Science. With React.js, HTML, CSS, Figma and Node in my arsenal, I've been building things for the web for the past 3 years.
                     <br />
                     <br />
-                    My journey? I've served clients from 6 countries during my freelance, crafting user-friendly, responsive, and secure web applications. This freelance experience, coupled with my year-long internship at SimplifyVMS, has fueled my passion for building impactful solutions.
+                   With extensive experience in designing and developing responsive web applications using technologies like React, Redux, and SCSS, I have successfully integrated complex features and streamlined interactions for users. My proficiency in tools such as Gulp, Webpack, and Bootstrap, along with a strong focus on accessibility and cross-browser compatibility, ensures seamless and efficient user experiences.  
                     <br />
                     <br />
                     I'm actively seeking opportunities to apply my expertise and passion for user-centric development. Open to collaboration and building together.
@@ -27,34 +27,34 @@ const AboutMe = () => {
                     <div>
                         <p>LANGUAGES</p>
                         <ul>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
                             <li>Python</li>
                             <li>Java</li>
-                            <li>TypeScript</li>
-                            <li>JavaScript</li>
                             <li>C++</li>
                             <li>SQL</li>
                         </ul>
                     </div>
                     <div>
-                        <p>FRAMEWORKS</p>
+                        <p>LIBRARIES</p>
                         <ul>
                             <li>ReactJS</li>
-                            <li>Flask</li>
-                            <li>Django</li>
-                            <li>Spring Boot</li>
-                            <li>NextJS</li>
+                            <li>Redux</li>
+                            <li>Bootstrap</li>
+                            <li>Tailwind CSS</li>
+                            <li>Jest</li>
                             <li>Node</li>
                         </ul>
                     </div>
                     <div>
                         <p>TOOLS</p>
                         <ul>
-                            <li>Git</li>
-                            <li>Tableau</li>
-                            <li>Docker</li>
-                            <li>AWS</li>
-                            <li>Selenium</li>
                             <li>Figma</li>
+                            <li>Git</li>
+                            <li>Sass</li>
+                            <li>Gulp</li>
+                            <li>AWS</li>
+                            <li>Postman</li>                             
                         </ul>
                     </div>
                     <div>
@@ -62,10 +62,10 @@ const AboutMe = () => {
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
+                            <li>Webpack</li>
                             <li>Linux</li>
                             <li>REST API</li>
                             <li>AGILE</li>
-                            <li>Scripting</li>
                         </ul>
                     </div>
                 </div>
@@ -78,18 +78,10 @@ const AboutMe = () => {
                 <div className="exp-right">
                     <div className="exp">
                         <div className="exp-company-sec">
-                            <div className="exp-company-title">University at Buffalo</div>
-                            <div className="exp-served">Jun&nbsp; - Aug&nbsp; 2023</div>
+                            <div className="exp-company-title">The Health Plan</div>
+                            <div className="exp-served">Apr&nbsp; 2023 - Jun&nbsp; 2024</div>
                         </div>
-                        <div>Graduate Student Assistant</div>
-                    </div>
-
-                    <div className="exp">
-                        <div className="exp-company-sec">
-                            <div className="exp-company-title">Fiverr</div>
-                            <div className="exp-served">Feb&nbsp; 2022 - Aug&nbsp; 2023</div>
-                        </div>
-                        <div>Freelance Full Stack Developer</div>
+                        <div>Frontend Developer, COntract</div>
                     </div>
 
                     <div className="exp">
@@ -102,18 +94,10 @@ const AboutMe = () => {
 
                     <div className="exp">
                         <div className="exp-company-sec">
-                            <div className="exp-company-title">Upwork</div>
-                            <div className="exp-served">Jan&nbsp; 2022 - May&nbsp; 2022</div>
+                            <div className="exp-company-title">Nobero</div>
+                            <div className="exp-served">Jul&nbsp; 2020 - May&nbsp; 2021</div>
                         </div>
-                        <div>Automation | Web Scraping | Scripting | Python</div>
-                    </div>
-
-                    <div className="exp">
-                        <div className="exp-company-sec">
-                            <div className="exp-company-title">Automize Apps</div>
-                            <div className="exp-served">Jun&nbsp; - Nov&nbsp; 2020</div>
-                        </div>
-                        <div>Web Scraping Intern</div>
+                        <div>Software Developer</div>
                     </div>
                 </div>
             </div>

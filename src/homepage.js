@@ -62,7 +62,7 @@ const Homepage = () => {
                             Software Engineer
                         </div>
                         <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.5s'}}>
-                            A Full-Stack Developer with 2 years of experience and Master's in CS looking for opportunities and to leverage expertise in React, Python, Spring Boot and more.
+                            React front-end developer with extensive 3+ years of experience building websites and web applications using React JS, JavaScript tools/frameworks & CSS. Proficient in architectural design & skilled in responsive layouts.
                         </div>
 
                         <div style={{display:'flex', alignItems: 'center'}}>
