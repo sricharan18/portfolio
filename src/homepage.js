@@ -74,7 +74,7 @@ const Homepage = () => {
                             
 
                             <div className='hero-support-text fade-up' data-animate='fade-up' style={{transitionDelay: '.6s', fontWeight: 600}}>
-                                Get in touch: <a className="contact-highlight" target='_blank' href={`mailto:${'k.charan2099@gmail.com'}`}>k.charan2099@gmail.com</a>
+                                Get in touch:  <a className="contact-highlight" target='_blank' href={`mailto:${'k.charan2099@gmail.com'}`}>k.charan2099@gmail.com</a>
                             </div>
                         </div>
                     </div>

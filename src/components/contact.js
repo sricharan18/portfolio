@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="contact">
             Designed and developed by Sri Sai Charan K
             <div class="social-icons-btn">
-            <a class="icons mail" target="_blank"  href={`mailto:${'charanformail@gmail.com'}`}>
+            <a class="icons mail" target="_blank"  href={`mailto:${'k.charan2099@gmail.com'}`}>
                 <ion-icon name="mail-outline"></ion-icon>
             </a>
             <a class="icons github" target="_blank" href="https://github.com/sricharan18">
@@ -15,7 +15,7 @@ const Contact = () => {
             <a class="icons instagram" target="_blank" href="https://www.instagram.com/kachavarapucharan/">
                 <ion-icon name="logo-instagram"></ion-icon>
             </a>
-            <a class="icons linkedin" target="_blank" href="https://www.linkedin.com/in/sricharan18/">
+            <a class="icons linkedin" target="_blank" href="https://www.linkedin.com/in/sricharan180/">
                 <ion-icon name="logo-linkedin"></ion-icon>
             </a>
             </div>
