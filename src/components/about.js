@@ -78,26 +78,26 @@ const AboutMe = () => {
                 <div className="exp-right">
                     <div className="exp">
                         <div className="exp-company-sec">
-                            <div className="exp-company-title">The Health Plan</div>
-                            <div className="exp-served">Apr&nbsp; 2023 - Jun&nbsp; 2024</div>
+                            <div className="exp-company-title">Blue Space Technologies</div>
+                            <div className="exp-served">Dec&nbsp; 2023 - Present</div>
                         </div>
-                        <div>Frontend Developer, COntract</div>
+                        <div>Frontend Developer, Contract</div>
                     </div>
 
                     <div className="exp">
                         <div className="exp-company-sec">
                             <div className="exp-company-title">SimplifyVMS</div>
-                            <div className="exp-served">Jun&nbsp; 2021 - Jun&nbsp; 2022</div>
+                            <div className="exp-served">Jun&nbsp; 2020 - Aug&nbsp; 2022</div>
                         </div>
                         <div>Software Developer</div>
                     </div>
 
                     <div className="exp">
                         <div className="exp-company-sec">
-                            <div className="exp-company-title">Nobero</div>
-                            <div className="exp-served">Jul&nbsp; 2020 - May&nbsp; 2021</div>
+                            <div className="exp-company-title">Automize Apps</div>
+                            <div className="exp-served">Jan&nbsp; 2020 - Jun&nbsp; 2020</div>
                         </div>
-                        <div>Software Developer</div>
+                        <div>Software Developer Intern</div>
                     </div>
                 </div>
             </div>
