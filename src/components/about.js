@@ -97,7 +97,7 @@ const AboutMe = () => {
                             <div className="exp-company-title">Automize Apps</div>
                             <div className="exp-served">Jan&nbsp; 2020 - Jun&nbsp; 2020</div>
                         </div>
-                        <div>Software Developer Intern</div>
+                        <div>Software Developer Intern </div>
                     </div>
                 </div>
             </div>
